@@ -116,8 +116,8 @@ class Ui_MainWindow(object):
         else:
             str_conf = '--conf-thres ' + str_conf
 
-        str_prefix = "python detect.py --save-txt"
-        str_total = str_prefix + " " + str_weight + " " + str_source + " " + str_iou + " " + str_conf
+        str_prefix = "python detect.py"
+        str_total = str_prefix + " " + str_weight + " " + str_source + " " + str_iou + " " + str_conf + " --save-txt"
         print("실행할 명령어 : ")
         print(str_total)
         os.system(str_total)
