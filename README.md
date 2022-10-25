@@ -9,3 +9,5 @@ pyuic5 PATH_TO_UI -o PATH_TO_PY
 python 코드 작업
 
 pyinstaller -w -F PATH_TO_PY
+
+dist 폴더에 앱 생성
